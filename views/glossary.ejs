@@ -12,15 +12,15 @@
         <tr>
           <th class="id">ID#</th>
           <th class="term">Term</th>
-          <th class="desc-ref">Description</th>
-          <th class="desc-ref">References</th>
+          <th class="desc">Description</th>
+          <th class="ref">References</th>
         </tr>
         <% list.forEach(item => { %>
           <tr>
             <td><%= item.id %></td>
             <td><%= item.term %></td>
             <td><%= item.description %></td>
-            <td><%= item.references %></td>
+            <td><div style="white-space:pre-wrap;"><%= item.references %></div></td>
           </tr>
         <% }) %>
       </table>
