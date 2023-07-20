@@ -1,9 +1,12 @@
 var express = require('express');
 var router = express.Router();
+var glossaryList = require('../data/glossaryData');
 
-/* GET home page. */
+console.log(JSON.stringify(glossaryList))
+/* Get glossary */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('glossary', { title: 'SIT716', subHeading: 'Glossary' , list: glossaryList});
 });
+
 
 module.exports = router;

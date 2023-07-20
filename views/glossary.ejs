@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>SIT716 DevOps Glossary</h1>
+    <br/>
+    <p>Welcome to my website showing a collection of DevOps terms and their brief descritions.</p>
+    <table width="100%">
+        <tr>
+          <th class="id">ID#</th>
+          <th class="term">Term</th>
+          <th class="desc-ref">Description</th>
+          <th class="desc-ref">References</th>
+        </tr>
+        <% list.forEach(item => { %>
+          <tr>
+            <td><%= item.id %></td>
+            <td><%= item.term %></td>
+            <td><%= item.description %></td>
+            <td><%= item.references %></td>
+          </tr>
+        <% }) %>
+      </table>
+  </body>
+</html>
