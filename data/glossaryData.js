@@ -60,6 +60,66 @@ const glossaryList = [{
         description: "This is a general category of software or hardware products available for purchase or periodic subscriptions for a mass audience. These often provide a set of utility required targeting a specific context and not limited to DevOps context. Examples include operating systems, Document processors.",
         references: `C. C. Editor, “commercial-off-the-shelf (COTS) - Glossary | CSRC,” csrc.nist.gov. https://csrc.nist.gov/glossary/term/commercial_off_the_shelf#:~:text=Definition(s)%3A (accessed Jul. 20, 2023).` + "\n\n" + `“COTS-Based System - What Is It And What Are The Benefits,” www.fabricgroup.com.au, Feb. 24, 2021. https://www.fabricgroup.com.au/blog/cots-based-system-what-is-it-and-what-are-the-benefits (accessed Jul. 20, 2023).`
     },
+    {
+        id: 11,
+        term: "Domain Driven Design (DDD)",
+        description: "This is a software development approach that bases software development based on the expertise of a particular business domain. The logic and business principles form a domain model that software development should strictly follow.",
+        references: `M. Fowler, “bliki: DomainDrivenDesign,” martinfowler.com, Apr. 22, 2020. https://martinfowler.com/bliki/DomainDrivenDesign.html (accessed Jul. 31, 2023).`
+    },
+    {
+        id: 12,
+        term: "Distributed Applications",
+        description: "Applications or servers that run on separate machines that are connected to a network to communicate and operate for business tasks. This is commonly used in telecommunications and network applications that span customers around a larger region.",
+        references: `“What Is a Distributed Application,” docs.oracle.com, 2010. https://docs.oracle.com/cd/E13203_01/tuxedo/tux71/html/addist2.htm (accessed Jul. 31, 2023).`
+    },
+    {
+        id: 13,
+        term: "Kubernetes",
+        description: "This is an open-source platform to manage or orchestrate containerized software services with configuration and automation support. This is widely used on containerized or microservices-based application, ",
+        references: `The Kubernetes Authors, “Overview,” Kubernetes.io, Jan. 03, 2023. https://kubernetes.io/docs/concepts/overview/ (accessed Jul. 31, 2023).`
+    },
+    {
+        id: 14,
+        term: "Gherkins",
+        description: "This is a programming language or a domain-specific language that is readable for anyone, therefore business teams can easily specify product requirements or behaviors expected from the application. This is used to define tests in Cucumber, an automation tool used in specific development context.",
+        references: `“What is Gherkin,” www.lambdatest.com. https://www.lambdatest.com/software-testing-questions/what-is-gherkin (accessed Aug. 02, 2023).`
+    },
+    {
+        id: 15,
+        term: "Docker Compose",
+        description: "This is a tool provided by docker to define container specification for a set of services or applications that work cohesively in a single project. The created file name is docker-compose.yaml which contains all definitions regarding the service creation and stopping.",
+        references: `Docker Docs, “Use Docker Compose,” Docker Documentation, May 12, 2022. https://docs.docker.com/get-started/08_using_compose/#:~:text=Docker%20Compose%20is%20a%20tool (accessed Jul. 31, 2023).`
+    },
+    {
+        id: 16,
+        term: "Behavior-Driven Design (BDD)",
+        description: "This is a development approach where development activities are based on behaviors or interactions of users with the application. This is closely associated with the Agile process as this involves collaboration among developers and product teams to develop the behaviors.",
+        references: `E. Elliott, “Behavior Driven Development (BDD) and Functional Testing,” Medium, Nov. 10, 2019. https://medium.com/javascript-scene/behavior-driven-development-bdd-and-functional-testing-62084ad7f1f2 (accessed Aug. 02, 2023).`
+    },
+    {
+        id: 17,
+        term: "DevSecOps",
+        description: "This is an enhanced software development culture where security is automated and integrated into the process from initiation to software delivery. As security is becoming crucial for modern applications, by extending DevOps with security in between it accelerates the resolution of security issues rather than performing security at the last stage of software delivery.",
+        references: `“What is DevSecOps? | IBM,” www.ibm.com, Apr. 2022. https://www.ibm.com/topics/devsecops (accessed Aug. 02, 2023).`
+    },
+    {
+        id: 18,
+        term: "AIOps",
+        description: "This is a practice of integrating Artificial Intelligence (AI) features into operations to enhance and automate operational procedures that can be automated. AI-related mechanisms such as Machine Learning/analytics and natural language processing are used to process big data and discover and resolve issues proactively which can be time consuming for human operators.",
+        references: `“What is AIOps? | IBM,” www.ibm.com, Apr. 2022. https://www.ibm.com/topics/aiops (accessed Aug. 02, 2023).`
+    },
+    {
+        id: 19,
+        term: "Cypress",
+        description: "This is a testing tool for front-end applications that run on web browsers. This operates directly on the modern browser, thereby making the testing process convenient for developer and testers. This is written in pure JavaScript and offers more advanced features for test automation solving issues in traditional front-end testing tools.",
+        references: `A. Khetarpal, “What is Cypress? Cypress Architecture, Features and Introduction,” TOOLSQA, Apr. 04, 2020. https://www.toolsqa.com/cypress/what-is-cypress/ (accessed Aug. 03, 2023).`
+    },
+    {
+        id: 20,
+        term: "Infrastructure as Code (IaC)",
+        description: "This is a specification for defining infrastructure configuration for deployment environment as a code in which the deployment environment can be easily configured and automated in contrast to manual configuration of error-prone inconsistent environments. This lays a unified mechanism for DevOps to define and maintain and deploy infrastructure.",
+        references: `M. Jacobs, J. Kulla-Mader, T. Petersen, and E. Kaim, “What is infrastructure as code (IaC)? - Azure DevOps,” learn.microsoft.com, Nov. 29, 2022. https://learn.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code (accessed Aug. 02, 2023).` + "\n\n" + `I. Buchanan, “Infrastructure as Code (IaC),” Atlassian. https://www.atlassian.com/microservices/cloud-computing/infrastructure-as-code (accessed Aug. 02, 2023).`
+    },
 ];
 
 module.exports = glossaryList;
