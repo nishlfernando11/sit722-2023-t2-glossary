@@ -120,6 +120,66 @@ const glossaryList = [{
         description: "This is a specification for defining infrastructure configuration for deployment environment as a code in which the deployment environment can be easily configured and automated in contrast to manual configuration of error-prone inconsistent environments. This lays a unified mechanism for DevOps to define and maintain and deploy infrastructure.",
         references: `M. Jacobs, J. Kulla-Mader, T. Petersen, and E. Kaim, “What is infrastructure as code (IaC)? - Azure DevOps,” learn.microsoft.com, Nov. 29, 2022. https://learn.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code (accessed Aug. 02, 2023).` + "\n\n" + `I. Buchanan, “Infrastructure as Code (IaC),” Atlassian. https://www.atlassian.com/microservices/cloud-computing/infrastructure-as-code (accessed Aug. 02, 2023).`
     },
+    {
+        id: 21,
+        term: "Provisioning (infrastructure)",
+        description: "This is a procedure that involves the creation or setting up of Information Technology systems to prepare them for a usable state by software applications. Provisioning can be done either on physical or virtual resources and there exist several types of provisioning such as cloud, server, service, and network.",
+        references: `“What is provisioning?,” www.redhat.com, Mar. 03, 2023. https://www.redhat.com/en/topics/automation/what-is-provisioning (accessed Aug. 12, 2023).`
+    },
+    {
+        id: 22,
+        term: "Hypervisor (VM)",
+        description: "This is software that isolates and enables the running of multiple operating systems by sharing underlying physical resources such as CPU, memory, and storage. Hypervisor is also referred to as Virtual Machine Monitor as this is used to run multiple virtual machines using virtualization.",
+        references: `IBM Cloud Team, “Hypervisors | IBM,” www.ibm.com. https://www.ibm.com/topics/hypervisors (accessed Aug. 12, 2023).` + "\n\n" + `“What is a hypervisor?,” www.redhat.com, Jan. 03, 2023. https://www.redhat.com/en/topics/virtualization/what-is-a-hypervisor (accessed Aug. 12, 2023).`
+    },
+    {
+        id: 23,
+        term: "Kernel (Operating System)",
+        description: "The kernel is the core part of an operating system that acts as an interface between computer hardware and processes managing, coordinating, and monitoring the hardware (ex: CPU, memory) usage by applications/processes.",
+        references: `Baeldung, “What is an OS Kernel? | Baeldung on Computer Science,” www.baeldung.com, May 03, 2021. https://www.baeldung.com/cs/os-kernel (accessed Aug. 12, 2023). `
+    },
+    {
+        id: 24,
+        term: "nginx",
+        description: "This is an open-source software providing web serving capabilities with different protocols such as HTTP, and HTTPS. Load balancing, caching, and acting as a proxy server for emails are among the core features in addition. This has asynchronous, event-driven architecture which is ideal to host application servers.",
+        references: `J. Magaji, “What is Nginx: Everything You Need to Know,” Papertrail. https://www.papertrail.com/solution/guides/nginx/ (accessed Aug. 12, 2023).` + "\n\n" + `Nginx, “What is NGINX?,” NGINX. https://www.nginx.com/resources/glossary/nginx/ (accessed Aug. 12, 2023).`
+    },
+    {
+        id: 25,
+        term: "Alphine OS",
+        description: "This is a minimalistic version or a specific distribution of the Linux operating system with security features for use in servers, containers, routers, firewalls etc. This is widely used in containers due to its lightweight and fundamental features.",
+        references: `Wikipedia contributors, “Alpine Linux,” Wikipedia, Jan. 23, 2022. https://en.wikipedia.org/wiki/Alpine_Linux (accessed Aug. 12, 2023).`
+    },
+    {
+        id: 26,
+        term: "Cloud-Native",
+        description: "This is an approach of building and deploying software applications using cloud computing or in cloud environments absorbing the modern software development features available on cloud such as scalability, flexibility, and elasticity compared to traditional on-premises applications.",
+        references: `AWS, “What is Cloud Native? - Cloud Native Explained - AWS,” Amazon Web Services, Inc. https://aws.amazon.com/what-is/cloud-native/ (accessed Aug. 12, 2023).`
+    },
+    {
+        id: 27,
+        term: "Azure Resource Group",
+        description: "This indicates a logical grouping of related resources in Azure such as services, storage, and virtual machines for easy and automated provisioning, management, and monitoring.",
+        references: `“How to use Azure Resource Groups | Azure Resource Manager Guide,” OTAVA. https://www.otava.com/reference/how-to-use-azure-resource-groups-a-simple-explanation/ (accessed Aug. 12, 2023).`
+    },
+    {
+        id: 28,
+        term: "Vagrant",
+        description: "This is a tool for creating and managing virtual machines using a configuration file called a vagrant file that enables automation of this creation process. This automation reduces the development setup time and increases the development environment consistency between developers.",
+        references: `“Introduction | Vagrant | HashiCorp Developer,” Introduction | Vagrant | HashiCorp Developer, Jan. 20, 2022. https://developer.hashicorp.com/vagrant/intro (accessed Aug. 12, 2023).` + "\n\n" + `samandal2021, “What is Vagrant?,” GeeksforGeeks, Jun. 04, 2021. https://www.geeksforgeeks.org/what-is-vagrant/ (accessed Aug. 12, 2023). `
+    },
+    {
+        id: 29,
+        term: "SDK",
+        description: "SDK stands for Software Development Kit which is a collection of software development tools for developing software applications targeted for a specific platform. SDK usually includes compilers, libraries, testing, documentation and debugging support tools.",
+        references: `I. C. Education, “SDK vs. API: What’s the Difference?,” IBM Blog, Jul. 13, 2021. https://www.ibm.com/blog/sdk-vs-api/ (accessed Aug. 12, 2023).`
+    },
+    {
+        id: 30,
+        term: "BLOB/ blob",
+        description: "The term BLOB stands for Binary large object which is a data type for storing binary data coming from multimedia such as images, audio, videos, documents, or other file types. Modern databases support blob data type which is comparatively complex than other database data types.",
+        references: `A. Zanini, “BLOB Data Type: Everything You Can Do With It,” www.dbvis.com, Mar. 13, 2023. https://www.dbvis.com/thetable/blob-data-type-everything-you-can-do-with-it/ (accessed Aug. 12, 2023).`
+    },
 ];
 
 module.exports = glossaryList;
