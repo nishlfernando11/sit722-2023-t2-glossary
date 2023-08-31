@@ -225,8 +225,8 @@ const glossaryList = [{
     },
     {
         id: 38,
-        term: "Minikuse",
-        description: "Minikuses is a simple lightweight implementation of Kubernetes for use in local machines as Kubernetes configurations are often unsatisfiable to be used in local machines. This allows to implement a simple single node cluster with basic functionality replicating light functionality of Kubernetes.",
+        term: "Minikube",
+        description: "Minikube is a simple lightweight implementation of Kubernetes for use in local machines as Kubernetes configurations are often unsatisfiable to be used in local machines. This allows to implement a simple single node cluster with basic functionality replicating light functionality of Kubernetes.",
         references: ``
     },
     {
