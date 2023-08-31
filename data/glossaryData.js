@@ -180,6 +180,67 @@ const glossaryList = [{
         description: "The term BLOB stands for Binary large object which is a data type for storing binary data coming from multimedia such as images, audio, videos, documents, or other file types. Modern databases support blob data type which is comparatively complex than other database data types.",
         references: `A. Zanini, “BLOB Data Type: Everything You Can Do With It,” www.dbvis.com, Mar. 13, 2023. https://www.dbvis.com/thetable/blob-data-type-everything-you-can-do-with-it/ (accessed Aug. 12, 2023).`
     },
+    {
+        id: 31,
+        term: "Docker Volumes",
+        description: "Docker volume is a special kind of file system managed by docker to persist data even when a container is not running. This storage resides in the host file system shared by docker at runtime. This way data used in containers can continue to exist even in the absence of the container.",
+        references: `Docker, “Use volumes,” Docker Documentation, Jan. 04, 2019. https://docs.docker.com/storage/volumes/ (accessed Aug. 31, 2023).` + "\n\n" +
+        `S. Zivuku, “Understanding Docker Volumes,” Earthly Blog, Feb. 08, 2022. https://earthly.dev/blog/docker-volumes/ (accessed Aug. 31, 2023).`
+    },
+    {
+        id: 32,
+        term: "Nodemon",
+        description: "Nodemon is a development tool used to monitor code changes and automatically restart or reload applications. This avoids the repetitive and manual restart of application after every code change. Additionally, it provides support to avoid, or especially monitor certain files. Primarily developed for node, however it supports other languages such as Python, Ruby. ",
+        references: `R. Sharp, “nodemon,” nodemon.io. https://nodemon.io/ (accessed Aug. 31, 2023).`
+    },
+    {
+        id: 33,
+        term: "MacVLAN",
+        description: "MacVLAN is a network driver which is used in containers when they need to appear in network as physical device. In this case, with MacVLAN network driver, container’s network interface is directly connected to host’s network interface with as MAC/physical address assigned.",
+        references: `R. Bhardwaj, “What is MacVLAN? Detailed Expalnation - IP With Ease,” ipwithease.com, Sep. 20, 2021. https://ipwithease.com/what-is-macvlan/ (accessed Aug. 31, 2023).`
+    },
+    {
+        id: 34,
+        term: "amqplib",
+        description: "AMQP lib (Advanced message queueing protocol) is a library that implements clients required for operating message transfer using AMQP. Message brokers such as RabbitMQ can use this library to connect to clients in applications.",
+        references: `M. Bridgen, “amqplib | AMQP 0-9-1 library and client for Node.JS,” amqp-node.github.io, 2014. https://amqp-node.github.io/amqplib/ (accessed Aug. 31, 2023).`
+    },
+    {
+        id: 35,
+        term: "Stub",
+        description: "Stub is a temporary or abstract version of a specific functionality that is yet to be developed. In testing, stubs are used to represent a certain block of code without fully implementing details which supports unit testing by removing underlying third-party complex code.",
+        references: `t2informatik, “What is a Stub? - Smartpedia - t2informatik,” t2informatik, Aug. 02, 2019. https://t2informatik.de/en/smartpedia/stub/ (accessed Aug. 31, 2023).`
+    },
+    {
+        id: 36,
+        term: "Robo3T",
+        description: "This is a data visualization application or tool for MongoDB that facilitates database connection to a database, data exploration through an interface as well as Command Line Interface (CLI).",
+        references: `ScaleGrid, “MongoDB GUI - Robo 3T Connection,” ScaleGrid Console, 2023. https://help.scalegrid.io/docs/mongodb-connections-gui-robo-3t (accessed Aug. 31, 2023).`
+    },
+    {
+        id: 37,
+        term: "RabbitMQ Exchange",
+        description: "Entity that supposed to route the message to the correct queue RabbitMQ message broker or message service has special types of entity that is used to route messages to certain message queues. This implements several exchange mechanisms such as direct, fanout, topic exchange.",
+        references: `L. Johansson, “Part 4: RabbitMQ Exchanges, routing keys and bindings - CloudAMQP,” www.cloudamqp.com, Sep. 24, 2019. https://www.cloudamqp.com/blog/part4-rabbitmq-for-beginners-exchanges-routing-keys-bindings.html (accessed Aug. 31, 2023).`
+    },
+    {
+        id: 38,
+        term: "Minikuse",
+        description: "Minikuses is a simple lightweight implementation of Kubernetes for use in local machines as Kubernetes configurations are often unsatisfiable to be used in local machines. This allows to implement a simple single node cluster with basic functionality replicating light functionality of Kubernetes.",
+        references: ``
+    },
+    {
+        id: 39,
+        term: "Kubectl",
+        description: "Kubernetes provides an API based command line utility to control and manage Kubernetes clusters, resources and other services provided. Kubectl commands will execute respective API in Kubernetes to perform that action on Kubernetes.",
+        references: `S. biradar, “What is kubectl?,” dockerlabs. https://dockerlabs.collabnix.com/kubernetes/beginners/what-is-kubect.html (accessed Aug. 31, 2023).`
+    },
+    {
+        id: 40,
+        term: "SKU",
+        description: "Microsoft Azure specifies, Stock Keeping Unit (SKU) for the resources it offers. SKU specifies different offerings and features of the same service based on cost, set of features, security levels, and performance levels. This provides the flexibility to choose resources/services based on the required need. It is similar to Basic, Standard, Premium like features available.",
+        references: `H. Manoj, “What Is Sku In Azure,” SkillVertex, Aug. 29, 2023. https://www.skillvertex.com/blog/what-is-sku-in-azure/ (accessed Aug. 31, 2023).`
+    },
 ];
 
 module.exports = glossaryList;
